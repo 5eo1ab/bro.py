@@ -21,5 +21,6 @@ Team url
 
 
 Individual url
-	
+
+	https://github.com/5eo1ab/2017-Spring/AL	
 	https://github.com/hyeongyuy/DMLassignment2
