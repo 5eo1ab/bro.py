@@ -1,7 +1,8 @@
 ## How to user DB connetion
 
-### Install package @ Anaconda environment
-`conda install mysql-connector-python`
+### Install [package](https://pypi.python.org/pypi/mysql-connector-python) 
+`conda install mysql-connector-python`  
+@ Anaconda environment  
 
 ### Create connection
 ```
