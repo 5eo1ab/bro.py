@@ -19,25 +19,6 @@ import shutil
 
 def file_copy_move(old, new):
     shutil.copy2(old, new)
-#
-#def code_dup_check(comp_code_dict):
-#    code_dup_temp = list(comp_code_dict.values())
-#    dup_list = list()
-#    for i in comp_code_dict.values():
-#        if code_dup_temp.count(i) >=2:
-#            dup_list.append(i)
-#    return list(set(dup_list))
-# 
-#def find_dup_code_comp_dict(code_dup_list, comp_code_dict):
-#    dup_code_comp_dict  = dict()
-#    for dup_code in code_dup_list:
-#        temp_dup_comp =[]
-#        for code, comp in comp_code_dict.items():
-#            if code== dup_code:
-#                temp_dup_comp.append(comp)
-#        dup_code_comp_dict[dup_code]=temp_dup_comp
-#    return dup_code_comp_dict
-
 
 def get_ccode(comp_code):
     lenstr = len(str(comp_code))
@@ -108,7 +89,7 @@ driver.implicitly_wait(4)
 
 
 
-krgog_comp_code_dict = dict() #key : 한글이름_영어이름, value : code
+gog_comp_code_dict = dict() #key : 한글이름_영어이름, value : code
 not_found_code = []
 for key in mode_code_dict.keys():
     URL =get_url(baseurl, key, startdate, enddate)
@@ -117,7 +98,7 @@ for key in mode_code_dict.keys():
     try:
         data_down(driver)
         comp_nm = get_google_comp_nm(driver, mode_code_dict, key)
-        krgog_comp_code_dict[key] = str(mode_code_dict[key]) + '(' + str(comp_nm) + ')'
+        gog_comp_code_dict[key] =  str(comp_nm) 
     except:
         not_found_code.append(str(key)+ ':'+ str(mode_code_dict[key]))
     time.sleep(0.5)
@@ -133,15 +114,15 @@ time.sleep(2) # 다 받아 질 때 까지 기다려
 
 err_text = '--------------------error message------------------------\n'
 #데이터 수집 053000기준일로 된 폴더 없으면 만들어라
-for key in krgog_comp_code_dict.keys():
+for key in gog_comp_code_dict.keys():
     try:
         old = r'C:\Users\yeohyeongyu\Downloads'+'\\'+str(key)+'.csv'
-        new =  r'C:\Users\yeohyeongyu\Desktop\finance_data\kospi200_a'+'\\'+str(krgog_comp_code_dict[key])+'_'+str(key)+'.csv'
+        new =  r'C:\Users\yeohyeongyu\Desktop\finance_data\kospi200_a'+'\\'+str(gog_comp_code_dict[key])+'_'+str(key)+'.csv'
         file_copy_move(old, new)
     except KeyError:
         err_text += str('google finance 검색 안된 기업 code: %s, name: %s\n'%(key, str(mode_code_dict[key]))) 
     except FileNotFoundError:
-        err_text += str('google finance 검색은 됐지만, 자료 다운 못한 기업 code: %s, name: %s\n'%(key, str(krgog_comp_code_dict[key])))
+        err_text += str('google finance 검색은 됐지만, 자료 다운 못한 기업 code: %s, name: %s\n'%(key, str(gog_comp_code_dict[key])))
 err_text += '-----------------------------------------------------\n\n'
 print(err_text)
 with open('kospi200_a\\err_text.txt', "w") as err:
