@@ -43,3 +43,6 @@ import json
 fpath = './colnames.json'
 colnames = json.load(open(fpath))
 ```
+
+column descriptions : [META DATA]("META_DATA.xlsx")
+
