@@ -33,3 +33,11 @@ table_df = df(table_rows)
 df_offers.columns = [ ... ]
 ```
 `table_df.columns = ['TimeLog','SPX','SSEC','GDAXI','N225','KOSPI', 'FCHI', 'BVSP', 'BSE', 'RTS', 'VNI']`
+
+
+## How to column names dictionary
+```
+import json
+fpath = './colnames.json'
+colnames = json.load(open(fpath))
+```
