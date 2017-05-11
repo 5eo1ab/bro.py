@@ -32,8 +32,7 @@ from pandas import DataFrame as df
 table_df = df(table_rows)
 df_offers.columns = [ ... ]
 ```
-`table_df.columns = ['TimeLog','SPX','SSEC','GDAXI','N225','KOSPI', 'FCHI', 'BVSP', 'BSE', 'RTS', 'VNI']`  
-USE **column names dictionary** (Read bottom code!)
+USE **column names dictionary** (Read `colnames.json`)
 
 
 
@@ -44,5 +43,5 @@ fpath = './colnames.json'
 colnames = json.load(open(fpath))
 ```
 
-column descriptions : [META DATA]("META_DATA.xlsx")
+column descriptions : `META_DATA.xlsx`
 
