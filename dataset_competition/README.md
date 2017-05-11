@@ -32,7 +32,9 @@ from pandas import DataFrame as df
 table_df = df(table_rows)
 df_offers.columns = [ ... ]
 ```
-`table_df.columns = ['TimeLog','SPX','SSEC','GDAXI','N225','KOSPI', 'FCHI', 'BVSP', 'BSE', 'RTS', 'VNI']`
+`table_df.columns = ['TimeLog','SPX','SSEC','GDAXI','N225','KOSPI', 'FCHI', 'BVSP', 'BSE', 'RTS', 'VNI']`  
+USE **column names dictionary** (Read bottom code!)
+
 
 
 ## How to column names dictionary
