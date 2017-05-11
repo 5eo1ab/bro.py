@@ -3,6 +3,12 @@
 Created on Wed May 10 13:25:40 2017
 
 @author: yeohyeongyu
+
+beta 값 구하기 위한 클래스
+이 클래스에서 최종적으로 출력 되는 데이터는 각 기업
+Date(매달 말일) Beta
+
+
 """
 
 
@@ -11,10 +17,25 @@ import pandas as pd
 import numpy as np
 
 
-directory = r"C:\Users\yeohyeongyu\Desktop\finance_data\all_list"
+directory = r"r'C:\Users\User\Documents\bro_py\kospi200_all"
 
 os.chdir(directory)
-index_list = os.listdir()
+#index_list = ['DAX30', 'kospi200_all', 'nikkei225', 'SnP500', 'SSE50']
+
+#일단은 코스피 기업에 대해서만
+indexnm= 'kospi200_all'
+
+
+data = pd.read_csv('BGF리테일(BGF Retail Co Ltd)_027410.csv' )
+
+for compnm in os.listdir(indexnm):
+    print(compnm)
+    data = pd.read_csv(indexnm+'\\'+compnm)
+    #        data.columns = ['Date', 'Open', 'High', 'Low', 'Close', 'Volume']
+    #        data['Date'] = pd.to_datetime(data['Date'])
+    
+
+
 
 data_period = ''
 for indexnm in index_list:
