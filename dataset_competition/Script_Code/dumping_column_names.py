@@ -8,6 +8,7 @@ Created on Thu May 11 19:59:01 2017
 import json
 
 g_idx_cols = ['TimeLog', 'SPX', 'SSEC', 'GDAXI', 'N225', 'KOSPI', 'FCHI', 'BVSP', 'BSE', 'RTS', 'VNI']
+g_idx2_cols = ['TimeLog', 'SPX', 'SHCOMP', 'NKY', 'DAX', 'KOSPI']
 
 normal_idx_cols = ['TimeLog', 'bIXMLACWF', 'bIXMLWRLD', 'bIXMLEMKF', 'bIXMLEURO', 'bIXMLAAPF', 'bIXMLNAMR',
                 'bIXNRCN', 'bIXNRUSDW', 'bIXMLEROP', 'bIXNRUK', 'bIXMLPACF', 'bIXNRAU', 'bIXNRHKHS', 'bIXNRJPTP',
@@ -83,9 +84,9 @@ dic_colnames = {
     'G_IDX_HIGH' : g_idx_cols,
     'G_IDX_LOW' : g_idx_cols,
     'G_IDX_VOLUME' : g_idx_cols,
-    'G_IDX_SIZE' : None,
-    'G_IDX_EPS' : None,
-    'G_IDX_PER' : None,
+    'G_IDX_SIZE' : g_idx2_cols,
+    'G_IDX_EPS' : g_idx2_cols,
+    'G_IDX_PER' : g_idx2_cols,
     'NORMAL_IDX' : normal_idx_cols,
     'KR_INDEX' : kr_idx_cols,
     'US_INDEX' : us_idx_cols,
@@ -97,6 +98,7 @@ dic_colnames = {
     'OTHER_IDX' : other_idx_cols
         }
 
-with open('colnames.json', 'w') as fp :
+fpath = 'C:/Users/SERVER1/bro.py/dataset_competition/'
+with open(fpath+'colnames.json', 'w') as fp :
     json.dump(dic_colnames, fp)
 
