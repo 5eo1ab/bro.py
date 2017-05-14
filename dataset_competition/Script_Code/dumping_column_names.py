@@ -84,7 +84,7 @@ dic_colnames = {
     'G_IDX_HIGH' : g_idx_cols,
     'G_IDX_LOW' : g_idx_cols,
     'G_IDX_VOLUME' : g_idx_cols,
-    'G_IDX_SIZE' : g_idx2_cols,
+    'G_IDX_M_CAPITAL' : g_idx2_cols,
     'G_IDX_EPS' : g_idx2_cols,
     'G_IDX_PER' : g_idx2_cols,
     'NORMAL_IDX' : normal_idx_cols,
@@ -94,7 +94,7 @@ dic_colnames = {
     'DE_INDEX' : de_idx_cols,
     'JP_INDEX' : jp_idx_cols, 
     'MATERIALS' : material_cols,
-    'EXCHANGE' : exchange_cols,
+    'EXCHANGES' : exchange_cols,
     'OTHER_IDX' : other_idx_cols
         }
 
