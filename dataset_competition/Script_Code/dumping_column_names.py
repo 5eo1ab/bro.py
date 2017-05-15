@@ -41,7 +41,7 @@ cn_idx_cols = ['TimeLog', 'aGLOCL6CHN', 'aCHCBLD', 'apCHMAIP', 'aaCHWRRTT', 'aCH
                 'aaCHBPDIA', 'aaCHBPDIL', 'aCHEIEX', 'aCHEIIM', 'aCHPREX', 'aCHPRIM', 'aCHPRTT', 'aCHLWUEMP',
                 'aCHCBCO', 'aCHCBLG', 'aCHCBSG', 'aCHBSBSIT', 'aCHCSCI', 'aCHCSSI', 'aCHCSEI', 'aCHMBRA',
                 'aaCHMBM1', 'aaCHMBM2', 'aaCHMBM3', 'aCHMBM2GR', 'aCHIRDR', 'aCHIRIBO7D', 'aaCHFXFRM', 'aCHFXRUS',
-                'apCHEGCNT', 'aCHEGSCCO', 'cpAMSACHT', 'cpAMSACHCAR', 'cpAMSACHCAR']
+                'apCHEGCNT', 'aCHEGSCCO', 'cpAMSACHT', 'cpAMSACHCAR']
 
 de_idx_cols = ['TimeLog', 'agBDMANOT', 'agBDCIOCT', 'ahBDMAHS', 'aBDMANRC', 'abBDCE', 'aaBDBPCA', 'aaBDBPG', 'aaBDBPS', 'aaBDBPI', 
                'aaBDEIEX', 'aaBDEIIM', 'aaBDEITB', 'afBDPRC', 'afBDPRCN', 'afBDPRCCO', 'afBDPRP', 'afBDPREX', 'afBDPRIM', 
