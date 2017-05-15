@@ -43,10 +43,9 @@ tmp_dic = {k:v for v,k in zip(node_df['id'], node_df['label'])}
 edge_df = df({
         'source' : tmp_df2['c0'].map(tmp_dic), 
         'target' : tmp_df2['c1'].map(tmp_dic),
-        'weight' : tmp_df2['corr'], 
-        'type' : 'undirected'
+        'weight' : np.abs(tmp_df2['corr'])
         })
-
+edge_df['type'] = 'undirected'
 im_dir    
 node_df.to_csv(im_dir+"TMP_node.csv", index=False)
 edge_df.to_csv(im_dir+"TMP_edge.csv", index=False)
