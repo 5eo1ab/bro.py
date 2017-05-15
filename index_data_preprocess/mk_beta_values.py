@@ -138,9 +138,14 @@ for period in period_list:
             try:
                 data_org = pd.read_csv(indexnm+'\\'+compnm)
             except BaseException as e:
-                err_msg +=  str(e) + " : " + indexnm + ', ' + compnm + '\n'
-                
-                continue
+                mod_compnm = compnm.replace(' ','_')
+                mod_compnm = mod_compnm.replace(' ', '_')
+                try:
+                    os.rename(indexnm+'\\'+compnm, indexnm+'\\' + mod_compnm)
+                    data_org = pd.read_csv(indexnm+'\\' + mod_compnm)
+                except BaseException as e:
+                    err_msg +=  str(e) + " : " + indexnm + ', ' + compnm + '\n'
+                    continue
     
     
     
@@ -201,7 +206,7 @@ for period in period_list:
             count +=1
 
         each_index_df.to_csv(directory+"\\"+mk_directory+ "\\beta_" + indexnm + '.csv')
-    with open(directory+"\\"+mk_directory+"\\"+'\\date_period.txt', "w") as date_prod:
+    with open(directory+"\\"+mk_directory+"\\"+'\\date_period.txt', "w", encoding = 'utf-8') as date_prod:
         date_prod.write(date_period) 
     
     with open(directory+"\\"+mk_directory+'\\err_text.txt', "w", encoding = 'utf-8') as err:
@@ -209,76 +214,3 @@ for period in period_list:
         
 
 
-
-
-
-
-#
-##---------------------기존 코드
-#
-#
-#for period in period_list:
-#    mk_directory ='Close_beta'+'_'+str(period) 
-#    #아래 있는 코드는 각 기업 별 하나의 csv 파일
-#    for indexnm in index_list:
-#        if not os.path.exists(directory+"\\"+mk_directory+"\\"+indexnm):
-#                os.makedirs(directory+"\\"+mk_directory+"\\"+indexnm)
-#                
-#        print('#################################################################')
-#        print('===========================',indexnm,'===========================')
-#        date_period += '===============================' + indexnm  +'===============================\n'
-#        
-#        for compnm in os.listdir(indexnm):
-#                  
-#            try:
-#                #데이터 파일에 문제가 있는 목록들은 err_msg에 저장해서 한번에 text 파일로 출력
-#                data_org = pd.read_csv(indexnm+'\\'+compnm)
-#            except BaseException as e:
-#                err_msg +=  str(e) + " : " + indexnm + ', ' + compnm + '\n'
-#                continue
-#    
-#    
-#            #아래 --- 표시한 부분 까지는 데이터 타입 정리하고, 날짜 순으로 sort 하는 부분임(데이터 정제)
-#            data_org.columns = ['Date_org', 'Open', 'High', 'Low', 'Close', 'Volume']      
-#            data = data_org[cal_list].copy()
-#            print('--------------------',compnm,'-----------------------')
-#            data['Date'] = pd.to_datetime(data['Date_org'])       
-#            try:
-#                data[price] = pd.to_numeric(data['Close'])
-#            except ValueError:
-#                data[price] = pd.to_numeric(data['Close'].str.replace(',',''))
-#            
-#            data = data.drop('Date_org', axis =1) 
-#            
-#            data['Month'] = data['Date'].dt.month       
-#            
-#            sorted_data = data.sort(columns = 'Date', ascending=1).copy()
-#            sorted_data.index = range(len(sorted_data)-1,-1,-1)
-#        
-#           
-#            cursor = len(sorted_data)-1 
-#            time_beta_list = []
-#            while True:
-#                time_rng  =cal_index(sorted_data, cursor, period)
-#                
-#                if time_rng ==None or len(time_rng) <10:
-#                    break
-#                
-#                beta = cal_bata(sorted_data, price, time_rng)
-#                cursor, end_day = end_date_index(sorted_data,cursor)
-#                
-#                if cursor <=0:
-#                    break        
-#                
-#                time_beta_list.append( (str(end_day)[0:10], beta)) #일까지
-#                #time_beta_list.append( (str(end_day)[0:7], beta)) #월 단위 까
-#            date_period += compnm + ' : ' + str(sorted_data.iloc[0]['Date'])[0:10] + ', ' + str(sorted_data.iloc[len(sorted_data)-1]['Date'])[0:10] + '\n'
-#            
-#            df = pd.DataFrame(time_beta_list, columns = cal_list)
-#            df.to_csv(directory+"\\"+mk_directory+"\\"+indexnm + "\\beta_" + compnm, index=False)
-#            
-#    with open(directory+"\\"+mk_directory+"\\"+'\\date_period.txt', "w") as date_prod:
-#        date_prod.write(date_period) 
-#    
-#    with open(directory+"\\"+mk_directory+'\\err_text.txt', "w", encoding = 'utf-8') as err:
-#        err.write(err_msg)                                                      

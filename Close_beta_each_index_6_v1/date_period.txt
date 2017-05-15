@@ -1,4 +1,4 @@
-∞¢ »∏ªÁ ∫∞ µ•¿Ã≈Õø° ≥Ø¬• π¸¿ß===============================DAX30===============================
+Í∞Å ÌöåÏÇ¨ Î≥Ñ Îç∞Ïù¥ÌÑ∞Ïóê ÎÇ†Ïßú Î≤îÏúÑ===============================DAX30===============================
 nan_ADS.csv : 2002-01-02, 2017-03-31
 nan_ALV.csv : 2002-01-02, 2017-03-31
 nan_BAS.csv : 2002-01-02, 2017-03-31
@@ -583,6 +583,7 @@ CA, Inc._CA.csv : 2001-05-07, 2017-03-31
 Cabot Oil & Gas_COG.csv : 2001-05-08, 2017-03-31
 Campbell Soup_CPB.csv : 2001-05-08, 2017-03-31
 Capital One Financial_COF.csv : 2001-05-08, 2017-03-31
+Cardinal_Health_Inc_CAH.csv : 2001-05-08, 2017-03-31
 Carmax Inc_KMX.csv : 2001-05-08, 2017-03-31
 Carnival Corp._CCL.csv : 2001-05-07, 2017-03-31
 Caterpillar Inc._CAT.csv : 2001-05-08, 2017-03-31
@@ -613,6 +614,7 @@ Citrix Systems_CTXS.csv : 2001-05-07, 2017-03-31
 CME Group Inc._CME.csv : 2002-12-06, 2017-03-31
 CMS Energy_CMS.csv : 2001-05-08, 2017-03-31
 Coach Inc._COH.csv : 2001-05-08, 2017-03-31
+Coca-Cola_Company_(The)_KO.csv : 2001-05-08, 2017-03-31
 Cognizant Technology Solutions_CTSH.csv : 2001-05-07, 2017-03-31
 Colgate-Palmolive_CL.csv : 2001-05-08, 2017-03-31
 Comcast Corp._CMCSA.csv : 2001-05-07, 2017-03-31
@@ -633,8 +635,13 @@ CVS Health_CVS.csv : 2001-05-08, 2017-03-31
 D. R. Horton_DHI.csv : 2001-05-08, 2017-03-31
 Danaher Corp._DHR.csv : 2001-05-08, 2017-03-31
 Darden Restaurants_DRI.csv : 2001-05-08, 2017-03-31
+DaVita_Inc._DVA.csv : 2001-05-08, 2017-03-31
 Deere & Co._DE.csv : 2001-05-08, 2017-03-31
+Delphi_Automotive_PLC_DLPH.csv : 2011-11-17, 2017-03-31
+Delta_Air_Lines_Inc._DAL.csv : 2007-04-26, 2017-03-31
 Dentsply Sirona_XRAY.csv : 2001-05-07, 2017-03-31
+Devon_Energy_Corp._DVN.csv : 2001-05-08, 2017-03-31
+Digital_Realty_Trust_Inc_DLR.csv : 2004-10-29, 2017-03-31
 Discover Financial Services_DFS.csv : 2007-06-14, 2017-03-31
 Discovery Communications-A_DISCA.csv : 2005-07-06, 2017-03-31
 Discovery Communications-C_DISCK.csv : 2008-09-18, 2017-03-31
@@ -645,12 +652,15 @@ Dominion Resources_D.csv : 2001-05-08, 2017-03-31
 Dover Corp._DOV.csv : 2001-05-08, 2017-03-31
 Dow Chemical_DOW.csv : 2001-05-08, 2017-03-31
 Dr Pepper Snapple Group_DPS.csv : 2008-04-28, 2017-03-31
+DTE_Energy_Co._DTE.csv : 2001-05-08, 2017-03-31
 Du Pont (E.I.)_DD.csv : 2001-05-08, 2017-03-31
 Duke Energy_DUK.csv : 2001-05-08, 2017-03-31
 DXC Technology_DXC.csv : 2017-03-20, 2017-03-31
 E-Trade_ETFC.csv : 2001-05-07, 2017-03-31
 Eastman Chemical_EMN.csv : 2001-05-08, 2017-03-31
 Eaton Corporation_ETN.csv : 1997-04-17, 2017-03-31
+eBay_Inc._EBAY.csv : 2001-05-07, 2017-03-31
+Ecolab_Inc._ECL.csv : 2001-05-08, 2017-03-31
 Edison Int'l_EIX.csv : 2001-05-08, 2017-03-31
 Edwards Lifesciences_EW.csv : 2001-05-08, 2017-03-31
 Electronic Arts_EA.csv : 2001-05-07, 2017-03-31
@@ -736,6 +746,7 @@ International Paper_IP.csv : 2001-05-08, 2017-03-31
 Interpublic Group_IPG.csv : 2001-05-08, 2017-03-31
 Intl Flavors & Fragrances_IFF.csv : 2001-05-08, 2017-03-31
 Intuitive Surgical Inc._ISRG.csv : 2001-05-07, 2017-03-31
+Intuit_Inc._INTU.csv : 2001-05-07, 2017-03-31
 Invesco Ltd._IVZ.csv : 2001-05-08, 2017-03-31
 Iron Mountain Incorporated_IRM.csv : 2015-01-21, 2017-03-31
 J. B. Hunt Transport Services_JBHT.csv : 2001-05-07, 2017-03-31
@@ -752,6 +763,8 @@ Kimberly-Clark_KMB.csv : 2001-05-08, 2017-03-31
 Kimco Realty_KIM.csv : 2001-05-08, 2017-03-31
 Kinder Morgan_KMI.csv : 2011-02-11, 2017-03-31
 KLA-Tencor Corp._KLAC.csv : 2001-05-07, 2017-03-31
+Kohl's_Corp._KSS.csv : 2001-05-08, 2017-03-31
+Kraft_Heinz_Co_KHC.csv : 2015-07-06, 2017-03-31
 Kroger Co._KR.csv : 2001-05-08, 2017-03-31
 L Brands Inc._LB.csv : 2001-05-08, 2017-03-31
 L-3 Communications Holdings_LLL.csv : 2001-05-08, 2017-03-31
@@ -941,6 +954,8 @@ Tyson Foods_TSN.csv : 2001-05-08, 2017-03-31
 U.S. Bancorp_USB.csv : 2001-05-08, 2017-03-31
 UDR Inc_UDR.csv : 2001-05-08, 2017-03-31
 Ulta Salon Cosmetics & Fragrance Inc_ULTA.csv : 2007-10-25, 2017-03-31
+Under_Armour_Class_A_UAA.csv : 2005-11-18, 2017-03-31
+Under_Armour_Class_C_UA.csv : 2016-03-23, 2017-03-31
 Union Pacific_UNP.csv : 2001-05-08, 2017-03-31
 United Continental Holdings_UAL.csv : 2006-02-02, 2017-03-31
 United Health Group Inc._UNH.csv : 2001-05-08, 2017-03-31
