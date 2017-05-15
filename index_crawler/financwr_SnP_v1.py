@@ -21,6 +21,8 @@ def mk_comp_code_dict(file_nm):
     comp_code_dict = dict()
     list_file =pd.read_excel('SnP500_data\\'+file_nm)
     for code, comp in list_file.loc[:,['Ticker symbol', 'Security']].values:
+        comp = comp.replace(' ', '_')
+        comp = comp.replace(' ', '_')
         comp_code_dict[code] = comp
     return comp_code_dict
 
