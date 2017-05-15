@@ -60,10 +60,20 @@ def get_idx_missing(ar) :
     return ar[ar>0].index[0]-1
 
 dic_n_corr = {}
+dic_g_idx = {'KR_INDEX':'KOSPI', 'US_INDEX':'SPX', 'CN_INDEX':'SSEC', 
+             'JP_INDEX':'N225', 'DE_INDEX':'GDAXI'}
 nationals = ['KR_INDEX', 'US_INDEX', 'CN_INDEX', 'JP_INDEX', 'DE_INDEX']
 for n in nationals :
     cols = list(dic_t_df[n].columns.values)[1:]
     corr_li = []
+    tmp_n_df = dic_t_df[n][dic_t_df[n]['TimeLog']>=dic_t_df['G_IDX_CLOSE']['TimeLog'][0]]
+    tmp_n_df = tmp_n_df.reset_index(drop=True)
+    for c0 in cols :
+        tmp_li = [dic_g_idx[n], c0]
+        s_idx = get_idx_missing(tmp_n_df[c0])
+        corr, p_v = pearsonr(dic_t_df['G_IDX_CLOSE'][dic_g_idx[n]][s_idx:],
+                             tmp_n_df[c0][s_idx:])
+        corr_li.append(tmp_li+[corr, p_v])
     for c0 in cols[:-1] :
         c0_idx = get_idx_missing(dic_t_df[n][c0])
         for c1 in cols[cols.index(c0)+1:] :
@@ -74,11 +84,11 @@ for n in nationals :
             else :
                 s_idx = c0_idx
             corr, p_v = pearsonr(dic_t_df[n][c0][s_idx:],dic_t_df[n][c1][s_idx:])
-            tmp_li = tmp_li + [corr, p_v]
-            corr_li.append(tmp_li)
+            corr_li.append(tmp_li+[corr, p_v])
     dic_n_corr[n] = df(corr_li, columns=['c0', 'c1', 'corr', 'p-value'])
     print(n)
 
+## Export to CSV format
 ex_dir = 'C:/Users/SERVER1/bro.py/dataset_competition/EXPORTED_CSV/'
 for n in nationals :
     dic_n_corr[n].to_csv(ex_dir+"{}.csv".format("corr_{}".format(n)), index=False)
