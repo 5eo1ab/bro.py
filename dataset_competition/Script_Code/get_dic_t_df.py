@@ -20,8 +20,8 @@ print("Success Connection.")
 
 ## Load column names
 import json
-fpath = r'C:\Users\SERVER1\bro.py\dataset_competition\colnames.json'
-dic_t_cols = json.load(open(fpath))
+fpath = 'C:/Users/SERVER1/bro.py/dataset_competition/'
+dic_t_cols = json.load(open(fpath+'colnames.json'))
 
 ## Load data to DataFrame and set dictioary
 dic_t_df = {}
@@ -58,20 +58,20 @@ def get_idx_missing(ar) :
     if has_missing(ar) is False :
         return 0
     return ar[ar>0].index[0]-1
+fpath = 'C:/Users/SERVER1/bro.py/dataset_competition/'
+dic_n_idx = json.load(open(fpath+'nationals.json'))
+nationals = list(dic_n_idx.keys())
 
 dic_n_corr = {}
-dic_g_idx = {'KR_INDEX':'KOSPI', 'US_INDEX':'SPX', 'CN_INDEX':'SSEC', 
-             'JP_INDEX':'N225', 'DE_INDEX':'GDAXI'}
-nationals = ['KR_INDEX', 'US_INDEX', 'CN_INDEX', 'JP_INDEX', 'DE_INDEX']
 for n in nationals :
     cols = list(dic_t_df[n].columns.values)[1:]
     corr_li = []
     tmp_n_df = dic_t_df[n][dic_t_df[n]['TimeLog']>=dic_t_df['G_IDX_CLOSE']['TimeLog'][0]]
     tmp_n_df = tmp_n_df.reset_index(drop=True)
     for c0 in cols :
-        tmp_li = [dic_g_idx[n], c0]
+        tmp_li = [dic_n_idx[n], c0]
         s_idx = get_idx_missing(tmp_n_df[c0])
-        corr, p_v = pearsonr(dic_t_df['G_IDX_CLOSE'][dic_g_idx[n]][s_idx:],
+        corr, p_v = pearsonr(dic_t_df['G_IDX_CLOSE'][dic_n_idx[n]][s_idx:],
                              tmp_n_df[c0][s_idx:])
         corr_li.append(tmp_li+[corr, p_v])
     for c0 in cols[:-1] :
