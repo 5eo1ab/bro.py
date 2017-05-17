@@ -31,12 +31,12 @@ def df_c12_counts(df_, w) :
 ############################
 ## Get input format of Gephi
 ############################
-cutoff = 0.7
+cutoff = 0.9
 dic_nodes, dic_edges = {}, {}
 for n in nationals :
     cols = list(dic_n_corr[n].columns.values)
     tmp_df = dic_n_corr[n][dic_n_corr[n]['p-value']<0.05]
-    #tmp_df = dic_n_corr[n][dic_n_corr[n]['p-value']<0.05][dic_n_corr[n]['corr']>cutoff]
+    #tmp_df = dic_n_corr[n][dic_n_corr[n]['p-value']<0.05][abs(dic_n_corr[n]['corr'])>cutoff]
     
     nodes = [dic_n_idx[n]] + list(dic_t_cols[n][1:])
     node_df = df({ 
