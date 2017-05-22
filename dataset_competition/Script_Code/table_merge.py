@@ -23,8 +23,8 @@ def table_merge(df_l, df_r) :
     
     df_l = df_l[df_l['TimeLog']>=tl_cutoff]
     df_r = df_r[df_r['TimeLog']>=tl_cutoff]
-    df_l.reset_index(drop=True)
-    df_r.reset_index(drop=True)
+    df_l = df_l.reset_index(drop=True)
+    df_r = df_r.reset_index(drop=True)
 
     df_res = df_l.merge(df_r, on='TimeLog')
     return df_res

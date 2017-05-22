@@ -37,13 +37,58 @@ def get_lag_norm_df(df_, t) :
     df_norm = (df_ - df_.min()) / (df_.max() - df_.min())
     return df_norm
 
-def get_norm_tg_arr(arr, t) :
+def get_norm_tg_arr(arr) :
     arr = (arr - arr.min()) / (arr.max() - arr.min())
     arr = arr.reset_index(drop=True)
     return arr
 
+
+
+def get_norm_df(df_) :
+    arr_tl = df_['TimeLog']
+    cols = [c for c in list(df_.columns.values) if c!='TimeLog']
+    df_ = df_[cols]
+    df_norm = (df_ - df_.min()) / (df_.max() - df_.min())
+    df_norm['TimeLog'] = arr_tl
+    df_norm = df_norm[['TimeLog']+cols]
+    return df_norm
+           
+
 ############################
 ## Get DTW(Dynamic Time Warping) 
 ############################
-df_n_merged[n].head()
+"""
+n, t = nationals[0], 1
+df_n = df_n_merged[n]
+g_idx = dic_t_df['G_IDX_CLOSE'][dic_n_idx[n]][:len(df_n)]
+
+df_n = get_lag_norm_df(df_n, t)
+g_idx = get_norm_tg_arr(g_idx)
+cutoff = get_cutoff_DTW(g_idx, t)
+
+cols = df_n.columns.values
+v_li = []
+for c in cols:
+    dtw, _ = fastdtw(g_idx, df_n[c])
+    if dtw < cutoff :
+        v_li.append([c, dtw])
+print(len(v_li), len(cols))
+"""
+
+n = nationals[0]
+df_n = df_n_merged[n]
+g_idx = dic_t_df['G_IDX_CLOSE'][dic_n_idx[n]]
+
+g_idx_n = (g_idx - g_idx.min()) / (g_idx.max() - g_idx.min())
+df_n = get_norm_df(df_n)
+
+cols = df_n.columns.values
+v_li = []
+for c in cols[1:]:
+    dtw, _ = fastdtw(g_idx_n, df_n[c])
+    v_li.append([c, dtw])
+print(len(v_li), len(cols))
+
+df_tmp = df(v_li, columns=['index', 'DTW'])
+
 

@@ -21,7 +21,7 @@ def get_modeling_input(df_in, t=1) :
         pass   
     return df_out
 
-df_in = dic_t_df['G_IDX_CLOSE']
-df_out = get_modeling_input(df_in, t=1)
+#df_in = dic_t_df['G_IDX_CLOSE']
+#df_out = get_modeling_input(df_in, t=1)
 
 

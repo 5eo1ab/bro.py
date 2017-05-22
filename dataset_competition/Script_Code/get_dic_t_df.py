@@ -36,4 +36,6 @@ for t, cols in dic_t_cols.items() :
     cursor.execute(query)
     dic_t_df[t] = df(cursor.fetchall(), columns=cols)
     cursor.close()
+
+cnx.close()
  
