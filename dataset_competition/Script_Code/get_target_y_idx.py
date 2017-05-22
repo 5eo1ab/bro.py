@@ -46,6 +46,6 @@ for i in range(1, len(tg_df)) :
 y_result = df(y_idx_li, columns=colnames)
 
 ## Export to CSV format
-fpath0 = '/'.join(fpath.split('\\')[:-1])+'/IMPORTED_CSV/Y_IDX_CLOSE.csv'
+fpath0 = '/'.join(fpath.split('\\')[:-1])+'/Y_IDX_CLOSE.csv'
 y_result.to_csv(fpath0, index=False)
 

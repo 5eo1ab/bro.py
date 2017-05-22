@@ -59,19 +59,20 @@ def get_modeling_input(df_in, t=1) :
         pass   
     return df_out
 
-df_in = dic_n_t_df[n]
+#df_in = dic_n_t_df[n]
 def get_diff_df(df_in) :
     diff_df = []
     arr_tl = df_in['TimeLog'][1:]
     df_in = df_in[list(df_in.columns.values)[1:]]
     for i in range(1, len(df_in)):
-        row = (np.array(df_in[df_in.index==i]) - np.array(df_in[df_in.index==i-1]))
-        row = row/(np.array(df_in[df_in.index==i-1]))*100
-        row = [0 if np.isinf(row)[0][j] else row[0][j] for j in range(len(row[0]))]
+        row = (np.array(df_in[df_in.index==i])[0] 
+                - np.array(df_in[df_in.index==i-1])[0])[0]
+        row = (row/(np.array(df_in[df_in.index==i-1]))*100)[0]
+        row = [0 if np.isinf(row)[j] else row[j] 
+                for j in range(len(row))]        
         diff_df.append([arr_tl[i]]+row)
     df_out = df(diff_df, columns=['TimeLog'] + list(df_in.columns.values))
     return df_out
-
 
 
 ###########################
@@ -82,7 +83,7 @@ for n in nationals:
 
 from scipy.stats import pearsonr
 dic_n_corr_df = {} # variable selection by corr.
-cutoff = 0.3
+cutoff = 0.5
 for n in nationals:
     corr_li, tl = [], dic_n_t_df[n]['TimeLog'].min()
     tg_arr = dic_n_g_idx[n][dic_n_g_idx[n]['TimeLog']>=tl][dic_n_idx[n]]    
