@@ -58,10 +58,10 @@ for n in nationals :
 dic_union = {}
 dic_intersection = {}
 for n in nationals :
-    dic_union[n] = set(dic_n_cols_l1[n]) | set(dic_n_cols_rf[n])
-    dic_intersection[n] = set(dic_n_cols_l1[n]) & set(dic_n_cols_rf[n])
+    dic_union[n] = list(set(dic_n_cols_l1[n]) | set(dic_n_cols_rf[n]))
+    dic_intersection[n] = list(set(dic_n_cols_l1[n]) & set(dic_n_cols_rf[n]))
 
-fpath    
+#fpath    
 var_counts = []
 for n in nationals :
     var_counts.append([ n,
@@ -77,3 +77,20 @@ var_counts = df(var_counts, columns=[
             'national', 'corr', 'l1', 'RF', 'union', 'intersection'])
 var_counts.to_csv(fpath+"var_counts.csv", index=False)
 
+#fpath
+## Export TRAIN TABLE
+for n in nationals :
+    dic_n_diff_df[n][dic_union[n]].to_csv(
+            fpath+'Input_CSV/union_{}_total.csv'.format(n), index=False)
+    dic_n_diff_df[n][dic_union[n]][:-48].to_csv(
+            fpath+'Input_CSV/union_{}_train.csv'.format(n), index=False)
+    dic_n_diff_df[n][dic_union[n]][-48:].to_csv(
+            fpath+'Input_CSV/union_{}_test.csv'.format(n), index=False)
+
+y_bin[:-48].tail()
+y_bin[-48:].head()
+
+## Export TEST TABLE
+df(dic_n_bin_arr).to_csv(fpath+"Y_bin_total.csv", index=False)
+df(dic_n_bin_arr)[:-48].to_csv(fpath+"Y_bin_train.csv", index=False)
+df(dic_n_bin_arr)[-48:].to_csv(fpath+"Y_bin_test.csv", index=False)

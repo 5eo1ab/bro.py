@@ -83,13 +83,13 @@ for n in nationals:
 
 from scipy.stats import pearsonr
 dic_n_corr_df = {} # variable selection by corr.
-cutoff = 0.5
+cutoff = 0.3
 for n in nationals:
     corr_li, tl = [], dic_n_t_df[n]['TimeLog'].min()
-    tg_arr = dic_n_g_idx[n][dic_n_g_idx[n]['TimeLog']>=tl][dic_n_idx[n]]    
+    tg_arr = dic_n_g_idx[n][dic_n_g_idx[n]['TimeLog']>=tl][dic_n_idx[n]]   
     tg_arr = tg_arr.reset_index(drop=True)
     for c in dic_n_t_df[n].columns.values[1:]:
-        corr, p_v = pearsonr(tg_arr, dic_n_t_df[n][c])
+        corr, p_v = pearsonr(tg_arr[:-48], dic_n_t_df[n][c][:-48])
         if p_v < 0.05 and abs(corr) > cutoff:
             corr_li.append(c)
     dic_n_corr_df[n] = dic_n_t_df[n][corr_li]
