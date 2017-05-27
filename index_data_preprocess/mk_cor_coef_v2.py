@@ -1,11 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun May 21 15:17:37 2017
-
-@author: hyeongyu
-"""
-# -*- coding: utf-8 -*-
-"""
 Created on Wed May 10 13:25:40 2017
 
 @author: yeohyeongyu

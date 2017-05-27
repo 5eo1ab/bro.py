@@ -28,14 +28,6 @@ def get_url(baseurl, ccode =111, startdate = ['Jan', 1, 1995], enddate = ['Apr',
     return baseurl.format(*all_list)
 
 
-def mk_comp_code_dict(file_nm):
-    comp_code_dict = dict()
-    list_file =pd.read_excel('SSE50_data\\'+file_nm)
-    for code, comp in list_file.loc[:,['SSE number', 'Constituent']].values:
-        comp_code_dict[code] = comp
-    return comp_code_dict
-
-
 def get_soup(url, params=None):
     r = requests.get(url, params=params).text
     return BeautifulSoup(r, 'html.parser')
@@ -55,6 +47,7 @@ os.chdir(directory)
 
 
 global_idx = {'DAX' : 14199910, 'SnP500' : 626307, 'KOSPI200' : 542029859096076, 'NIKKEI225':15513676,  'SSE50' :3147530}
+index_list = ['DAX30', 'SnP500', 'kospi200_all', 'nikkei225', 'SSE50']
 
 base_url = 'https://www.google.com/finance/historical?cid={}&&startdate={}+{}%2C+{}&enddate={}+{}%2C+{}&start={}&num=200'
 
@@ -63,7 +56,7 @@ prd_cor = []
 
 
 
-
+num =0
 for key in global_idx.keys():
     price_info= []  
     start = 0
@@ -87,12 +80,9 @@ for key in global_idx.keys():
 
     price_info_df = pd.DataFrame(price_info).iloc[1:,0:6]
     price_info_df.columns = price_info[0]
-
-    if not os.path.exists(directory +'\\global_idx'):
-        os.makedirs(directory +'\\global_idx')
     
-    price_info_df.to_csv(directory +'\\' + 'global_idx\\'+key+'.csv', index=False)
-
+    price_info_df.to_csv(directory +'\\'+ index_list[num]+ '\\'+key+'.csv', index=False)
+    num+=1
 
         
 print('end')

@@ -1,0 +1,5 @@
+﻿중국 : 个股, stocks/ 经济 , economy/ SSE Composite Index
+미국 : stocks /  economy / S&P
+한국 : stocks, 증시 / 경제 / 코스피, kospi
+일본 : 株式 /経済 /日経, nikkei
+독일 : Bestände, stocks / Wirtschaft, economy / DAX

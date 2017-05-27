@@ -1,0 +1,3 @@
+오류 발생한 회사들
+오류 내용 : 지수 이름, 회사 이름 
+No columns to parse from file	DAX30	nan_CON.csv

@@ -1,0 +1,61 @@
+Adobe Systems Inc_ADBE
+Aetna Inc_AET
+Alphabet Inc Class A_GOOGL
+Alaska Air Group Inc_ALK
+News Corp. Class A_NWSA
+Walgreens Boots Alliance_WBA
+Iron Mountain Incorporated_IRM
+Mylan N.V._MYL
+PayPal_PYPL
+Albemarle Corp_ALB
+Alexandria Real Estate Equities Inc_ARE
+AES Corp_AES
+Zions Bancorp_ZION
+Perrigo_PRGO
+Fortive Corp_FTV
+Abbott Laboratories_ABT
+AbbVie Inc._ABBV
+Broadcom_AVGO
+Alphabet Inc Class C_GOOG
+Intercontinental Exchange_ICE
+3M Company_MMM
+Activision Blizzard_ATVI
+Equinix_EQIX
+News Corp. Class B_NWS
+Qorvo_QRVO
+Air Products & Chemicals Inc_APD
+Alliant Energy Corp_LNT
+Synchrony Financial_SYF
+Allergan, Plc_AGN
+Envision Healthcare_EVHC
+Citizens Financial Group_CFG
+American Airlines Group_AAL
+TechnipFMC_FTI
+Advance Auto Parts_AAP
+Nielsen Holdings_NLSN
+Agilent Technologies Inc_A
+Johnson Controls International_JCI
+Accenture plc_ACN
+Akamai Technologies Inc_AKAM
+Advanced Micro Devices Inc_AMD
+Affiliated Managers Group Inc_AMG
+Acuity Brands Inc_AYI
+Coty, Inc_COTY
+Charter Communications_CHTR
+Monster Beverage_MNST
+AFLAC Inc_AFL
+Pentair Ltd._PNR
+CSRA Inc._CSRA
+Under_Armour_Class_C_UA
+Kraft_Heinz_Co_KHC
+Alexion Pharmaceuticals_ALXN
+Alliance Data Systems_ADS
+Mallinckrodt Plc_MNK
+Hewlett Packard Enterprise_HPE
+Medtronic plc_MDT
+Navient_NAVI
+Allstate Corp_ALL
+Crown Castle International Corp._CCI
+WestRock Company_WRK
+Allegion_ALLE
+XL Capital_XL
