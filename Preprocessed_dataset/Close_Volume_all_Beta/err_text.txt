@@ -1,0 +1,8 @@
+오류 발생한 회사들
+오류 내용 : 지수 이름, 회사 이름 
+beta값이 비었음 : SnP500, Charter Communications_CHTR.csv
+beta값이 비었음 : SnP500, DXC Technology_DXC.csv
+beta값이 비었음 : SnP500, Envision Healthcare_EVHC.csv
+beta값이 비었음 : SnP500, Fortive Corp_FTV.csv
+beta값이 비었음 : SnP500, TechnipFMC_FTI.csv
+beta값이 비었음 : SnP500, XL Capital_XL.csv

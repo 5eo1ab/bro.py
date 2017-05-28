@@ -1,0 +1,559 @@
+각 회사 별 데이터에 날짜 범위===============================SSE50===============================
+Agricultural Bank of China_601288.csv	2010-08-20	2017-03-31
+AVIC Aviation Engine_600893.csv	2000-09-13	2017-03-31
+Bank of Beijing_601169.csv	2008-01-03	2017-03-31
+Bank of China_601988.csv	2006-07-05	2017-03-31
+Bank of Communications_601328.csv	2008-03-05	2017-03-31
+China CITIC Bank_601998.csv	2008-02-19	2017-03-31
+China Communications Construction_601800.csv	2012-04-24	2017-03-31
+China Everbright Bank_601818.csv	2011-06-08	2017-03-31
+China Life Insurance_601628.csv	2007-05-10	2017-03-31
+China Merchants Bank_600036.csv	2002-12-19	2017-03-31
+China Merchants Securities_600999.csv	2010-08-09	2017-03-31
+China Minsheng Bank_600016.csv	2001-04-30	2017-03-31
+China National Nuclear Power_601985.csv	2015-08-10	2017-03-31
+China Northern Rare Earth_600111.csv	2001-05-24	2017-03-31
+China Pacific Insurance_601601.csv	2008-03-06	2017-03-31
+China Railway Construction_601186.csv	2008-12-12	2017-03-31
+China Railway [Engineering]_601390.csv	2008-02-19	2017-03-31
+China Shenhua Energy_601088.csv	2008-03-07	2017-03-31
+China Shipbuilding Industry_601989.csv	2010-01-27	2017-03-31
+China Southern Airlines_600029.csv	2003-09-12	2017-03-31
+China State Construction Engineering_601668.csv	2009-10-29	2017-03-31
+China Unicom_600050.csv	2003-01-21	2017-03-31
+CITIC Securities_600030.csv	2003-10-22	2017-03-31
+CRRC Corporation_601766.csv	2008-08-18	2017-03-31
+Daqin Railway_601006.csv	2007-04-24	2017-03-31
+Dongxing Securities_601198.csv	2015-08-03	2017-03-31
+Everbright Securities_601788.csv	2009-10-09	2017-03-31
+Founder Securities_601901.csv	2011-10-28	2017-03-31
+Guotai Junan Securities_601211.csv	2015-08-10	2017-03-31
+Haitong Securities_600837.csv	2002-10-24	2017-03-31
+Huatai Securities_601688.csv	2010-08-12	2017-03-31
+Industrial and Commercial Bank of China_601398.csv	2007-04-20	2017-03-31
+Industrial Bank_601166.csv	2007-04-20	2017-03-31
+Industrial Securities_601377.csv	2011-06-08	2017-03-31
+Kangmei Pharmaceutical_600518.csv	2001-04-09	2017-03-31
+Kweichow Moutai_600519.csv	2002-02-04	2017-03-31
+New China Life Insurance_601336.csv	2012-03-14	2017-03-31
+Orient Securities_600958.csv	2015-07-31	2017-03-31
+PetroChina_601857.csv	2008-03-04	2017-03-31
+Ping An Insurance_601318.csv	2007-04-11	2017-03-31
+Poly Real Estate Group_600048.csv	2007-04-13	2017-03-31
+SAIC Motor_600104.csv	2001-03-01	2017-03-31
+Shandong Gold Mining_600547.csv	2004-01-14	2017-03-31
+Shanghai Oriental Pearl Media_600637.csv	2000-12-06	2017-03-31
+Shanghai Pudong Development Bank_600000.csv	2001-02-23	2017-03-31
+Sinolink Securities_600109.csv	2000-11-22	2017-03-31
+Sinopec_600028.csv	2002-03-21	2017-03-31
+SSE50.csv	2004-01-15	2017-03-31
+Tsinghua Tongfang_600100.csv	2001-03-12	2017-03-31
+Xinwei Group_600485.csv	2003-11-21	2016-12-23
+Yili Group_600887.csv	2001-03-07	2017-03-31
+===============================SnP500===============================
+3M Company_MMM.csv	2001-05-08	2017-03-31
+Abbott Laboratories_ABT.csv	2001-05-08	2017-03-31
+AbbVie Inc._ABBV.csv	2012-12-10	2017-03-31
+Accenture plc_ACN.csv	2001-07-19	2017-03-31
+Activision Blizzard_ATVI.csv	2001-05-07	2017-03-31
+Acuity Brands Inc_AYI.csv	2001-11-28	2017-03-31
+Adobe Systems Inc_ADBE.csv	2001-05-07	2017-03-31
+Advance Auto Parts_AAP.csv	2001-11-29	2017-03-31
+Advanced Micro Devices Inc_AMD.csv	2001-05-04	2017-03-31
+AES Corp_AES.csv	2001-05-08	2017-03-31
+Aetna Inc_AET.csv	2001-05-08	2017-03-31
+Affiliated Managers Group Inc_AMG.csv	2001-05-08	2017-03-31
+AFLAC Inc_AFL.csv	2001-05-08	2017-03-31
+Agilent Technologies Inc_A.csv	2001-05-08	2017-03-31
+Air Products & Chemicals Inc_APD.csv	2001-05-08	2017-03-31
+Akamai Technologies Inc_AKAM.csv	2001-05-07	2017-03-31
+Alaska Air Group Inc_ALK.csv	2001-05-08	2017-03-31
+Albemarle Corp_ALB.csv	2001-05-08	2017-03-31
+Alexandria Real Estate Equities Inc_ARE.csv	2001-05-08	2017-03-31
+Alexion Pharmaceuticals_ALXN.csv	2001-05-07	2017-03-31
+Allegion_ALLE.csv	2013-11-18	2017-03-31
+Allergan, Plc_AGN.csv	2013-10-01	2017-03-31
+Alliance Data Systems_ADS.csv	2001-06-08	2017-03-31
+Alliant Energy Corp_LNT.csv	2001-05-08	2017-03-31
+Allstate Corp_ALL.csv	2001-05-08	2017-03-31
+Alphabet Inc Class A_GOOGL.csv	2004-08-19	2017-03-31
+Alphabet Inc Class C_GOOG.csv	2004-08-19	2017-03-31
+Altria Group Inc_MO.csv	2001-05-08	2017-03-31
+Amazon.com Inc_AMZN.csv	2001-05-07	2017-03-31
+Ameren Corp_AEE.csv	2001-05-08	2017-03-31
+American Airlines Group_AAL.csv	2013-12-09	2017-03-31
+American Electric Power_AEP.csv	2001-05-08	2017-03-31
+American Express Co_AXP.csv	2001-05-08	2017-03-31
+American International Group, Inc._AIG.csv	2001-05-08	2017-03-31
+American Tower Corp A_AMT.csv	1998-06-05	2011-12-30
+American Water Works Company Inc_AWK.csv	2008-04-23	2017-03-31
+Ameriprise Financial_AMP.csv	2005-09-15	2017-03-31
+AmerisourceBergen Corp_ABC.csv	2001-05-08	2017-03-31
+AMETEK Inc_AME.csv	2001-05-08	2017-03-31
+Amgen Inc_AMGN.csv	2001-05-07	2017-03-31
+Amphenol Corp_APH.csv	2001-05-08	2017-03-31
+Anadarko Petroleum Corp_APC.csv	2001-05-08	2017-03-31
+Analog Devices, Inc._ADI.csv	2012-04-02	2017-03-31
+Anthem Inc._ANTM.csv	2001-10-30	2017-03-31
+Aon plc_AON.csv	2012-11-19	2017-03-31
+Apache Corporation_APA.csv	2001-05-08	2017-03-31
+Apartment Investment & Management_AIV.csv	2001-05-08	2017-03-31
+Apple Inc._AAPL.csv	2001-05-07	2017-03-31
+Applied Materials Inc_AMAT.csv	2001-05-04	2017-03-31
+Archer-Daniels-Midland Co_ADM.csv	2001-05-08	2017-03-31
+Arconic Inc_ARNC.csv	2001-05-08	2017-03-31
+Arthur J. Gallagher & Co._AJG.csv	2001-05-08	2017-03-31
+Assurant Inc_AIZ.csv	2004-02-05	2017-03-31
+AT&T Inc_T.csv	2001-05-08	2017-03-31
+Autodesk Inc_ADSK.csv	2001-05-07	2017-03-31
+Automatic Data Processing_ADP.csv	2001-05-07	2017-03-31
+AutoNation Inc_AN.csv	2001-05-08	2017-03-31
+AutoZone Inc_AZO.csv	2001-05-08	2017-03-31
+AvalonBay Communities, Inc._AVB.csv	2001-05-08	2017-03-31
+Avery Dennison Corp_AVY.csv	2001-05-08	2017-03-31
+Baker Hughes Inc_BHI.csv	2001-05-08	2017-03-31
+Ball Corp_BLL.csv	2001-05-08	2017-03-31
+Bank of America Corp_BAC.csv	2001-05-08	2017-03-31
+Bard (C.R.) Inc._BCR.csv	2001-05-08	2017-03-31
+Baxter International Inc._BAX.csv	2001-05-08	2017-03-31
+BB&T Corporation_BBT.csv	2001-05-08	2017-03-31
+Becton Dickinson_BDX.csv	2001-05-08	2017-03-31
+Bed Bath & Beyond_BBBY.csv	2001-05-07	2017-03-31
+Berkshire Hathaway_BRK.B.csv	2001-05-08	2017-03-31
+Best Buy Co. Inc._BBY.csv	2001-05-08	2017-03-31
+Biogen Inc._BIIB.csv	2001-05-07	2017-03-31
+BlackRock_BLK.csv	2001-05-08	2017-03-31
+Block H&R_HRB.csv	2001-05-08	2017-03-31
+Boeing Company_BA.csv	2001-05-08	2017-03-31
+BorgWarner_BWA.csv	2001-05-08	2017-03-31
+Boston Properties_BXP.csv	2001-05-08	2017-03-31
+Boston Scientific_BSX.csv	2001-05-08	2017-03-31
+Bristol-Myers Squibb_BMY.csv	2001-05-08	2017-03-31
+Broadcom_AVGO.csv	2016-02-01	2017-03-31
+Brown-Forman Corp._BF.B.csv	2001-05-08	2017-03-31
+C. H. Robinson Worldwide_CHRW.csv	2001-05-07	2017-03-31
+CA, Inc._CA.csv	2001-05-07	2017-03-31
+Cabot Oil & Gas_COG.csv	2001-05-08	2017-03-31
+Campbell Soup_CPB.csv	2001-05-08	2017-03-31
+Capital One Financial_COF.csv	2001-05-08	2017-03-31
+Cardinal_Health_Inc_CAH.csv	2001-05-08	2017-03-31
+Carmax Inc_KMX.csv	2001-05-08	2017-03-31
+Carnival Corp._CCL.csv	2001-05-07	2017-03-31
+Caterpillar Inc._CAT.csv	2001-05-08	2017-03-31
+CBOE Holdings_CBOE.csv	2010-06-15	2017-03-31
+CBRE Group_CBG.csv	2004-06-10	2017-03-31
+CBS Corp._CBS.csv	2005-12-05	2017-03-31
+Celgene Corp._CELG.csv	2001-05-07	2017-03-31
+Centene Corporation_CNC.csv	2001-12-13	2017-03-31
+CenterPoint Energy_CNP.csv	2001-05-08	2017-03-31
+CenturyLink Inc_CTL.csv	2001-05-08	2017-03-31
+Cerner_CERN.csv	2001-05-07	2017-03-31
+CF Industries Holdings Inc_CF.csv	2005-08-11	2017-03-31
+Charles Schwab Corporation_SCHW.csv	2003-01-02	2017-03-31
+Charter Communications_CHTR.csv	2016-05-18	2017-03-31
+Chesapeake Energy_CHK.csv	2001-05-08	2017-03-31
+Chevron Corp._CVX.csv	2001-10-10	2017-03-31
+Chipotle Mexican Grill_CMG.csv	2006-01-26	2017-03-31
+Chubb Limited_CB.csv	2001-05-08	2017-03-31
+Church & Dwight_CHD.csv	2001-05-08	2017-03-31
+CIGNA Corp._CI.csv	2001-05-08	2017-03-31
+Cimarex Energy_XEC.csv	2002-09-25	2017-03-31
+Cincinnati Financial_CINF.csv	2001-05-07	2017-03-31
+Cintas Corporation_CTAS.csv	2001-05-07	2017-03-31
+Cisco Systems_CSCO.csv	2001-05-07	2017-03-31
+Citigroup Inc._C.csv	2001-05-08	2017-03-31
+Citizens Financial Group_CFG.csv	2014-09-24	2017-03-31
+Citrix Systems_CTXS.csv	2001-05-07	2017-03-31
+CME Group Inc._CME.csv	2002-12-06	2017-03-31
+CMS Energy_CMS.csv	2001-05-08	2017-03-31
+Coach Inc._COH.csv	2001-05-08	2017-03-31
+Coca-Cola_Company_(The)_KO.csv	2001-05-08	2017-03-31
+Cognizant Technology Solutions_CTSH.csv	2001-05-07	2017-03-31
+Colgate-Palmolive_CL.csv	2001-05-08	2017-03-31
+Comcast Corp._CMCSA.csv	2001-05-07	2017-03-31
+Comerica Inc._CMA.csv	2001-05-08	2017-03-31
+Conagra Brands_CAG.csv	2001-05-08	2017-03-31
+Concho Resources_CXO.csv	2007-08-03	2017-03-31
+ConocoPhillips_COP.csv	2001-05-08	2017-03-31
+Consolidated Edison_ED.csv	2001-05-08	2017-03-31
+Constellation Brands_STZ.csv	2001-05-08	2017-03-31
+Corning Inc._GLW.csv	2001-05-08	2017-03-31
+Costco Wholesale Corp._COST.csv	2001-05-07	2017-03-31
+Coty, Inc_COTY.csv	2013-06-13	2017-03-31
+Crown Castle International Corp._CCI.csv	2014-12-16	2017-03-31
+CSRA Inc._CSRA.csv	2015-11-16	2017-03-31
+CSX Corp._CSX.csv	2001-05-04	2017-03-31
+Cummins Inc._CMI.csv	2001-05-08	2017-03-31
+CVS Health_CVS.csv	2001-05-08	2017-03-31
+D. R. Horton_DHI.csv	2001-05-08	2017-03-31
+Danaher Corp._DHR.csv	2001-05-08	2017-03-31
+Darden Restaurants_DRI.csv	2001-05-08	2017-03-31
+DaVita_Inc._DVA.csv	2001-05-08	2017-03-31
+Deere & Co._DE.csv	2001-05-08	2017-03-31
+Delphi_Automotive_PLC_DLPH.csv	2011-11-17	2017-03-31
+Delta_Air_Lines_Inc._DAL.csv	2007-04-26	2017-03-31
+Dentsply Sirona_XRAY.csv	2001-05-07	2017-03-31
+Devon_Energy_Corp._DVN.csv	2001-05-08	2017-03-31
+Digital_Realty_Trust_Inc_DLR.csv	2004-10-29	2017-03-31
+Discover Financial Services_DFS.csv	2007-06-14	2017-03-31
+Discovery Communications-A_DISCA.csv	2005-07-06	2017-03-31
+Discovery Communications-C_DISCK.csv	2008-09-18	2017-03-31
+Dish Network_DISH.csv	2001-05-07	2017-03-31
+Dollar General_DG.csv	2009-11-13	2017-03-31
+Dollar Tree_DLTR.csv	2001-05-07	2017-03-31
+Dominion Resources_D.csv	2001-05-08	2017-03-31
+Dover Corp._DOV.csv	2001-05-08	2017-03-31
+Dow Chemical_DOW.csv	2001-05-08	2017-03-31
+Dr Pepper Snapple Group_DPS.csv	2008-04-28	2017-03-31
+DTE_Energy_Co._DTE.csv	2001-05-08	2017-03-31
+Du Pont (E.I.)_DD.csv	2001-05-08	2017-03-31
+Duke Energy_DUK.csv	2001-05-08	2017-03-31
+DXC Technology_DXC.csv	2017-03-20	2017-03-31
+E-Trade_ETFC.csv	2001-05-07	2017-03-31
+Eastman Chemical_EMN.csv	2001-05-08	2017-03-31
+Eaton Corporation_ETN.csv	1997-04-17	2017-03-31
+eBay_Inc._EBAY.csv	2001-05-07	2017-03-31
+Ecolab_Inc._ECL.csv	2001-05-08	2017-03-31
+Edison Int'l_EIX.csv	2001-05-08	2017-03-31
+Edwards Lifesciences_EW.csv	2001-05-08	2017-03-31
+Electronic Arts_EA.csv	2001-05-07	2017-03-31
+Emerson Electric Company_EMR.csv	2001-05-08	2017-03-31
+Entergy Corp._ETR.csv	2001-05-08	2017-03-31
+Envision Healthcare_EVHC.csv	2016-12-02	2017-03-31
+EOG Resources_EOG.csv	2001-05-08	2017-03-31
+EQT Corporation_EQT.csv	2001-05-08	2017-03-31
+Equifax Inc._EFX.csv	2001-05-08	2017-03-31
+Equinix_EQIX.csv	2015-01-26	2017-03-31
+Equity Residential_EQR.csv	2001-05-08	2017-03-31
+Essex Property Trust, Inc._ESS.csv	2001-05-08	2017-03-31
+Estee Lauder Cos._EL.csv	2001-05-08	2017-03-31
+Eversource Energy_ES.csv	2001-05-08	2017-03-31
+Exelon Corp._EXC.csv	2001-05-08	2017-03-31
+Expedia Inc._EXPE.csv	2003-01-02	2017-03-31
+Expeditors International_EXPD.csv	2001-05-07	2017-03-31
+Express Scripts_ESRX.csv	2001-05-07	2017-03-31
+Extra Space Storage_EXR.csv	2004-08-12	2017-03-31
+Exxon Mobil Corp._XOM.csv	2001-05-08	2017-03-31
+F5 Networks_FFIV.csv	2001-05-07	2017-03-31
+Facebook, Inc._FB.csv	2012-05-17	2017-03-31
+Fastenal Co_FAST.csv	2001-05-07	2017-03-31
+Federal Realty Investment Trust_FRT.csv	2001-05-08	2017-03-31
+FedEx Corporation_FDX.csv	2001-05-08	2017-03-31
+Fidelity National Information Services_FIS.csv	2001-06-20	2017-03-31
+Fifth Third Bancorp_FITB.csv	2001-05-07	2017-03-31
+FirstEnergy Corp_FE.csv	2001-05-08	2017-03-31
+Fiserv Inc_FISV.csv	2001-05-07	2017-03-31
+FLIR Systems_FLIR.csv	2001-05-07	2017-03-31
+Flowserve Corporation_FLS.csv	2001-05-08	2017-03-31
+Fluor Corp._FLR.csv	2001-05-08	2017-03-31
+FMC Corporation_FMC.csv	2001-05-08	2017-03-31
+Foot Locker Inc_FL.csv	2001-05-08	2017-03-31
+Ford Motor_F.csv	2001-05-08	2017-03-31
+Fortive Corp_FTV.csv	2016-06-13	2017-03-31
+Fortune Brands Home & Security_FBHS.csv	2011-09-16	2017-03-31
+Franklin Resources_BEN.csv	2001-05-08	2017-03-31
+Freeport-McMoRan Inc._FCX.csv	2001-05-08	2017-03-31
+Gap Inc._GPS.csv	2001-05-08	2017-03-31
+Garmin Ltd._GRMN.csv	2001-05-04	2017-03-31
+Gartner Inc_IT.csv	2001-05-08	2017-03-31
+General Dynamics_GD.csv	2001-05-08	2017-03-31
+General Electric_GE.csv	2001-05-08	2017-03-31
+General Growth Properties Inc._GGP.csv	2000-06-21	2017-03-31
+General Mills_GIS.csv	2001-05-08	2017-03-31
+General Motors_GM.csv	2010-11-18	2017-03-31
+Genuine Parts_GPC.csv	2001-05-08	2017-03-31
+Gilead Sciences_GILD.csv	2001-05-07	2017-03-31
+Global Payments Inc_GPN.csv	2001-05-08	2017-03-31
+Goldman Sachs Group_GS.csv	2001-05-08	2017-03-31
+Goodyear Tire & Rubber_GT.csv	2001-04-24	2017-03-31
+Grainger (W.W.) Inc._GWW.csv	2001-05-08	2017-03-31
+Halliburton Co._HAL.csv	2001-05-08	2017-03-31
+Hanesbrands Inc_HBI.csv	2006-08-16	2017-03-31
+Harley-Davidson_HOG.csv	2001-05-08	2017-03-31
+Harris Corporation_HRS.csv	2001-05-08	2017-03-31
+Hartford Financial Svc.Gp._HIG.csv	2001-05-08	2017-03-31
+Hasbro Inc._HAS.csv	2001-05-04	2017-03-31
+HCA Holdings_HCA.csv	2011-03-10	2017-03-31
+HCP Inc._HCP.csv	2001-05-08	2017-03-31
+Helmerich & Payne_HP.csv	2001-05-08	2017-03-31
+Henry Schein_HSIC.csv	2001-05-07	2017-03-31
+Hess Corporation_HES.csv	2001-05-08	2017-03-31
+Hewlett Packard Enterprise_HPE.csv	2015-10-19	2017-03-31
+Hologic_HOLX.csv	2001-05-07	2017-03-31
+Home Depot_HD.csv	2001-05-08	2017-03-31
+Honeywell Int'l Inc._HON.csv	2001-05-08	2017-03-31
+Hormel Foods Corp._HRL.csv	2001-05-08	2017-03-31
+Host Hotels & Resorts_HST.csv	2001-05-08	2017-03-31
+HP Inc._HPQ.csv	2001-05-08	2017-03-31
+Humana Inc._HUM.csv	2001-05-08	2017-03-31
+Huntington Bancshares_HBAN.csv	2001-05-07	2017-03-31
+IDEXX Laboratories_IDXX.csv	2001-05-07	2017-03-31
+Illinois Tool Works_ITW.csv	2001-05-08	2017-03-31
+Illumina Inc_ILMN.csv	2001-05-07	2017-03-31
+Incyte_INCY.csv	2001-05-07	2017-03-31
+Ingersoll-Rand PLC_IR.csv	2001-05-08	2017-03-31
+Intel Corp._INTC.csv	2001-05-07	2017-03-31
+Intercontinental Exchange_ICE.csv	2013-11-05	2017-03-31
+International Business Machines_IBM.csv	2001-05-08	2017-03-31
+International Paper_IP.csv	2001-05-08	2017-03-31
+Interpublic Group_IPG.csv	2001-05-08	2017-03-31
+Intl Flavors & Fragrances_IFF.csv	2001-05-08	2017-03-31
+Intuitive Surgical Inc._ISRG.csv	2001-05-07	2017-03-31
+Intuit_Inc._INTU.csv	2001-05-07	2017-03-31
+Invesco Ltd._IVZ.csv	2001-05-08	2017-03-31
+Iron Mountain Incorporated_IRM.csv	2015-01-21	2017-03-31
+J. B. Hunt Transport Services_JBHT.csv	2001-05-07	2017-03-31
+Jacobs Engineering Group_JEC.csv	2001-05-08	2017-03-31
+JM Smucker_SJM.csv	2001-05-08	2017-03-31
+Johnson & Johnson_JNJ.csv	2001-05-08	2017-03-31
+Johnson Controls International_JCI.csv	2014-11-17	2017-03-31
+JPMorgan Chase & Co._JPM.csv	2001-05-08	2017-03-31
+Juniper Networks_JNPR.csv	2001-05-07	2017-03-31
+Kansas City Southern_KSU.csv	2001-05-08	2017-03-31
+Kellogg Co._K.csv	2001-05-08	2017-03-31
+KeyCorp_KEY.csv	2001-05-08	2017-03-31
+Kimberly-Clark_KMB.csv	2001-05-08	2017-03-31
+Kimco Realty_KIM.csv	2001-05-08	2017-03-31
+Kinder Morgan_KMI.csv	2011-02-11	2017-03-31
+KLA-Tencor Corp._KLAC.csv	2001-05-07	2017-03-31
+Kohl's_Corp._KSS.csv	2001-05-08	2017-03-31
+Kraft_Heinz_Co_KHC.csv	2015-07-06	2017-03-31
+Kroger Co._KR.csv	2001-05-08	2017-03-31
+L Brands Inc._LB.csv	2001-05-08	2017-03-31
+L-3 Communications Holdings_LLL.csv	2001-05-08	2017-03-31
+Laboratory Corp. of America Holding_LH.csv	2001-05-08	2017-03-31
+Lam Research_LRCX.csv	2001-05-07	2017-03-31
+Leggett & Platt_LEG.csv	2001-05-08	2017-03-31
+Lennar Corp._LEN.csv	2001-05-08	2017-03-31
+Leucadia National Corp._LUK.csv	2001-05-08	2017-03-31
+Level 3 Communications_LVLT.csv	2011-10-20	2017-03-31
+Lilly (Eli) & Co._LLY.csv	2001-05-08	2017-03-31
+Lincoln National_LNC.csv	2001-05-08	2017-03-31
+LKQ Corporation_LKQ.csv	2003-10-03	2017-03-31
+Lockheed Martin Corp._LMT.csv	2001-05-08	2017-03-31
+Loews Corp._L.csv	2001-05-08	2017-03-31
+Lowe's Cos._LOW.csv	2001-05-08	2017-03-31
+LyondellBasell_LYB.csv	2010-10-14	2017-03-31
+M&T Bank Corp._MTB.csv	2001-05-08	2017-03-31
+Macerich_MAC.csv	2001-05-08	2017-03-31
+Macy's Inc._M.csv	2001-05-08	2017-03-31
+Mallinckrodt Plc_MNK.csv	2013-06-17	2017-03-31
+Marathon Oil Corp._MRO.csv	2001-05-08	2017-03-31
+Marathon Petroleum_MPC.csv	2011-06-23	2017-03-31
+Marriott Int'l._MAR.csv	2001-05-07	2017-03-31
+Marsh & McLennan_MMC.csv	2001-05-08	2017-03-31
+Martin Marietta Materials_MLM.csv	2001-05-08	2017-03-31
+Masco Corp._MAS.csv	2001-05-08	2017-03-31
+Mastercard Inc._MA.csv	2006-05-25	2017-03-31
+Mattel Inc._MAT.csv	2009-09-28	2017-03-31
+McCormick & Co._MKC.csv	2001-05-08	2017-03-31
+McDonald's Corp._MCD.csv	2001-05-08	2017-03-31
+McKesson Corp._MCK.csv	2001-05-08	2017-03-31
+Mead Johnson_MJN.csv	2009-02-11	2017-03-31
+Medtronic plc_MDT.csv	2015-01-27	2017-03-31
+Merck & Co._MRK.csv	2001-05-07	2017-03-31
+MetLife Inc._MET.csv	2001-05-08	2017-03-31
+Mettler Toledo_MTD.csv	2001-05-08	2017-03-31
+Michael Kors Holdings_KORS.csv	2011-12-15	2017-03-31
+Microchip Technology_MCHP.csv	2001-05-07	2017-03-31
+Micron Technology_MU.csv	2009-12-30	2017-03-31
+Microsoft Corp._MSFT.csv	2001-05-07	2017-03-31
+Mid-America Apartments_MAA.csv	2001-05-08	2017-03-31
+Mohawk Industries_MHK.csv	2001-05-08	2017-03-31
+Molson Coors Brewing Company_TAP.csv	2001-05-08	2017-03-31
+Mondelez International_MDLZ.csv	2012-06-11	2017-03-31
+Monsanto Co._MON.csv	2001-05-08	2017-03-31
+Monster Beverage_MNST.csv	2015-06-15	2017-03-31
+Moody's Corp_MCO.csv	2001-05-08	2017-03-31
+Morgan Stanley_MS.csv	2001-05-08	2017-03-31
+Motorola Solutions Inc._MSI.csv	2001-05-08	2017-03-31
+Murphy Oil_MUR.csv	2001-05-08	2017-03-31
+Mylan N.V._MYL.csv	2015-03-02	2017-03-31
+Nasdaq, Inc._NDAQ.csv	2002-07-02	2017-03-31
+National Oilwell Varco Inc._NOV.csv	2001-05-08	2017-03-31
+Navient_NAVI.csv	2014-04-17	2017-03-31
+NetApp_NTAP.csv	2001-05-07	2017-03-31
+Netflix Inc._NFLX.csv	2002-05-23	2017-03-31
+Newell Brands_NWL.csv	2001-05-08	2017-03-31
+Newfield Exploration Co_NFX.csv	2001-05-08	2017-03-31
+Newmont Mining Corporation_NEM.csv	2001-05-08	2017-03-31
+News Corp. Class A_NWSA.csv	2013-06-19	2017-03-31
+News Corp. Class B_NWS.csv	2013-06-19	2017-03-31
+NextEra Energy_NEE.csv	2003-01-02	2017-03-31
+Nielsen Holdings_NLSN.csv	2015-08-31	2017-03-31
+Nike_NKE.csv	2001-05-08	2017-03-31
+NiSource Inc._NI.csv	2001-05-08	2017-03-31
+Noble Energy Inc_NBL.csv	2001-05-08	2017-03-31
+Nordstrom_JWN.csv	2001-05-08	2017-03-31
+Norfolk Southern Corp._NSC.csv	2001-05-08	2017-03-31
+Northern Trust Corp._NTRS.csv	2001-05-04	2017-03-31
+Northrop Grumman Corp._NOC.csv	2001-05-08	2017-03-31
+NRG Energy_NRG.csv	2003-12-11	2017-03-31
+Nucor Corp._NUE.csv	2001-05-08	2017-03-31
+Nvidia Corporation_NVDA.csv	2001-05-07	2017-03-31
+O'Reilly Automotive_ORLY.csv	2001-05-04	2017-03-31
+Occidental Petroleum_OXY.csv	2001-05-08	2017-03-31
+Omnicom Group_OMC.csv	2001-05-08	2017-03-31
+ONEOK_OKE.csv	2001-05-08	2017-03-31
+Oracle Corp._ORCL.csv	2001-05-08	2017-03-31
+PACCAR Inc._PCAR.csv	2001-05-07	2017-03-31
+Parker-Hannifin_PH.csv	2001-05-08	2017-03-31
+Patterson Companies_PDCO.csv	2001-05-07	2017-03-31
+Paychex Inc._PAYX.csv	2001-05-07	2017-03-31
+PayPal_PYPL.csv	2015-07-06	2017-03-31
+Pentair Ltd._PNR.csv	2014-06-03	2017-03-31
+People's United Financial_PBCT.csv	2001-05-07	2017-03-31
+PepsiCo Inc._PEP.csv	2001-05-08	2017-03-31
+PerkinElmer_PKI.csv	2001-05-08	2017-03-31
+Perrigo_PRGO.csv	2013-12-19	2017-03-31
+Pfizer Inc._PFE.csv	2001-05-08	2017-03-31
+PG&E Corp._PCG.csv	2001-05-08	2017-03-31
+Philip Morris International_PM.csv	2008-03-17	2017-03-31
+Phillips 66_PSX.csv	2012-04-12	2017-03-31
+Pinnacle West Capital_PNW.csv	2001-05-08	2017-03-31
+Pioneer Natural Resources_PXD.csv	2001-05-08	2017-03-31
+PNC Financial Services_PNC.csv	2001-05-08	2017-03-31
+Polo Ralph Lauren Corp._RL.csv	2001-05-08	2017-03-31
+PPG Industries_PPG.csv	2001-05-08	2017-03-31
+PPL Corp._PPL.csv	2001-05-08	2017-03-31
+Praxair Inc._PX.csv	2001-05-08	2017-03-31
+Priceline.com Inc_PCLN.csv	2001-05-07	2017-03-31
+Principal Financial Group_PFG.csv	2001-10-23	2017-03-31
+Procter & Gamble_PG.csv	2001-05-08	2017-03-31
+Progressive Corp._PGR.csv	2001-05-08	2017-03-31
+Prologis_PLD.csv	2001-05-07	2017-03-31
+Prudential Financial_PRU.csv	2001-12-13	2017-03-31
+Public Serv. Enterprise Inc._PEG.csv	2001-05-08	2017-03-31
+Public Storage_PSA.csv	2001-05-08	2017-03-31
+Pulte Homes Inc._PHM.csv	2001-05-08	2017-03-31
+PVH Corp._PVH.csv	2001-05-08	2017-03-31
+Qorvo_QRVO.csv	2015-01-02	2017-03-31
+QUALCOMM Inc._QCOM.csv	2001-05-07	2017-03-31
+Quanta Services Inc._PWR.csv	2001-05-08	2017-03-31
+Quest Diagnostics_DGX.csv	2001-05-08	2017-03-31
+Range Resources Corp._RRC.csv	2001-05-08	2017-03-31
+Raymond James Financial Inc._RJF.csv	2001-05-08	2017-03-31
+Raytheon Co._RTN.csv	2001-05-08	2017-03-31
+Realty Income Corporation_O.csv	2001-05-08	2017-03-31
+Red Hat Inc._RHT.csv	2001-05-08	2017-03-31
+Regency Centers Corporation_REG.csv	2001-05-08	2017-03-31
+Regeneron_REGN.csv	2001-05-04	2017-03-31
+Regions Financial Corp._RF.csv	2001-05-08	2017-03-31
+Republic Services Inc_RSG.csv	2001-05-08	2017-03-31
+Reynolds American Inc._RAI.csv	2001-05-08	2017-03-31
+Robert Half International_RHI.csv	2001-05-08	2017-03-31
+Rockwell Automation Inc._ROK.csv	2001-05-08	2017-03-31
+Rockwell Collins_COL.csv	2001-06-15	2017-03-31
+Roper Technologies_ROP.csv	2001-05-08	2017-03-31
+Ross Stores_ROST.csv	2001-05-07	2017-03-31
+Royal Caribbean Cruises Ltd_RCL.csv	2001-05-08	2017-03-31
+Ryder System_R.csv	2001-05-08	2017-03-31
+S&P Global, Inc._SPGI.csv	2001-05-08	2017-03-31
+Salesforce.com_CRM.csv	2004-06-23	2017-03-31
+SCANA Corp_SCG.csv	2001-05-08	2017-03-31
+Schlumberger Ltd._SLB.csv	2001-05-07	2017-03-31
+Scripps Networks Interactive Inc._SNI.csv	2008-06-12	2017-03-31
+Seagate Technology_STX.csv	2002-12-11	2017-03-31
+Sealed Air_SEE.csv	2001-05-08	2017-03-31
+Sempra Energy_SRE.csv	2001-05-08	2017-03-31
+Sherwin-Williams_SHW.csv	2001-05-08	2017-03-31
+Signet Jewelers_SIG.csv	2001-05-08	2017-03-31
+Simon Property Group Inc_SPG.csv	2001-05-08	2017-03-31
+Skyworks Solutions_SWKS.csv	2001-05-07	2017-03-31
+SL Green Realty_SLG.csv	2001-05-08	2017-03-31
+Snap-On Inc._SNA.csv	2001-05-08	2017-03-31
+SnP500.csv	1995-01-04	2017-03-31
+Southern Co._SO.csv	2001-05-08	2017-03-31
+Southwest Airlines_LUV.csv	2001-05-08	2017-03-31
+Stanley Black & Decker_SWK.csv	2001-05-08	2017-03-31
+Staples Inc._SPLS.csv	2001-05-07	2017-03-31
+Starbucks Corp._SBUX.csv	2001-05-07	2017-03-31
+State Street Corp._STT.csv	2001-05-08	2017-03-31
+Stericycle Inc_SRCL.csv	2001-05-07	2017-03-31
+Stryker Corp._SYK.csv	2001-05-08	2017-03-31
+SunTrust Banks_STI.csv	2001-05-08	2017-03-31
+Symantec Corp._SYMC.csv	2001-05-07	2017-03-31
+Synchrony Financial_SYF.csv	2014-07-31	2017-03-31
+Synopsys Inc._SNPS.csv	2001-05-04	2017-03-31
+Sysco Corp._SYY.csv	2001-05-08	2017-03-31
+T. Rowe Price Group_TROW.csv	2001-05-07	2017-03-31
+Target Corp._TGT.csv	2001-05-07	2017-03-31
+TE Connectivity Ltd._TEL.csv	2007-06-14	2017-03-31
+TechnipFMC_FTI.csv	2017-01-17	2017-03-31
+Tegna, Inc._TGNA.csv	2001-05-08	2017-03-31
+Teradata Corp._TDC.csv	2007-09-12	2017-03-31
+Tesoro Petroleum Co._TSO.csv	2001-05-08	2017-03-31
+Texas Instruments_TXN.csv	2001-05-04	2017-03-31
+Textron Inc._TXT.csv	2001-05-08	2017-03-31
+The Bank of New York Mellon Corp._BK.csv	2001-05-08	2017-03-31
+The Clorox Company_CLX.csv	2001-05-08	2017-03-31
+The Cooper Companies_COO.csv	2001-05-08	2017-03-31
+The Hershey Company_HSY.csv	2001-05-08	2017-03-31
+The Mosaic Company_MOS.csv	2001-05-07	2017-03-31
+The Travelers Companies Inc._TRV.csv	2001-05-08	2017-03-31
+The Walt Disney Company_DIS.csv	2001-05-08	2017-03-31
+Thermo Fisher Scientific_TMO.csv	2001-05-08	2017-03-31
+Tiffany & Co._TIF.csv	2001-05-08	2017-03-31
+Time Warner Inc._TWX.csv	2001-05-08	2017-03-31
+TJX Companies Inc._TJX.csv	2001-05-08	2017-03-31
+Torchmark Corp._TMK.csv	2001-05-08	2017-03-31
+Total System Services_TSS.csv	2001-05-08	2017-03-31
+Tractor Supply Company_TSCO.csv	2001-05-07	2017-03-31
+TransDigm Group_TDG.csv	2006-03-15	2017-03-31
+Transocean_RIG.csv	2001-05-08	2017-03-31
+TripAdvisor_TRIP.csv	2011-12-07	2017-03-31
+Twenty-First Century Fox Class A_FOXA.csv	2001-05-07	2017-03-31
+Twenty-First Century Fox Class B_FOX.csv	2001-05-07	2017-03-31
+Tyson Foods_TSN.csv	2001-05-08	2017-03-31
+U.S. Bancorp_USB.csv	2001-05-08	2017-03-31
+UDR Inc_UDR.csv	2001-05-08	2017-03-31
+Ulta Salon Cosmetics & Fragrance Inc_ULTA.csv	2007-10-25	2017-03-31
+Under_Armour_Class_A_UAA.csv	2005-11-18	2017-03-31
+Under_Armour_Class_C_UA.csv	2016-03-23	2017-03-31
+Union Pacific_UNP.csv	2001-05-08	2017-03-31
+United Continental Holdings_UAL.csv	2006-02-02	2017-03-31
+United Health Group Inc._UNH.csv	2001-05-08	2017-03-31
+United Parcel Service_UPS.csv	2001-05-08	2017-03-31
+United Rentals, Inc._URI.csv	2001-05-08	2017-03-31
+United Technologies_UTX.csv	2001-05-08	2017-03-31
+Universal Health Services, Inc._UHS.csv	2001-05-08	2017-03-31
+Unum Group_UNM.csv	2001-05-08	2017-03-31
+V.F. Corp._VFC.csv	2001-05-08	2017-03-31
+Valero Energy_VLO.csv	2001-05-08	2017-03-31
+Varian Medical Systems_VAR.csv	2001-05-08	2017-03-31
+Ventas Inc_VTR.csv	2001-05-08	2017-03-31
+Verisign Inc._VRSN.csv	2001-05-07	2017-03-31
+Verisk Analytics_VRSK.csv	2009-10-07	2017-03-31
+Verizon Communications_VZ.csv	2001-05-08	2017-03-31
+Vertex Pharmaceuticals Inc_VRTX.csv	2001-05-03	2017-03-31
+Viacom Inc._VIAB.csv	2005-12-05	2017-03-31
+Visa Inc._V.csv	2008-03-19	2017-03-31
+Vornado Realty Trust_VNO.csv	2001-05-08	2017-03-31
+Vulcan Materials_VMC.csv	2001-05-08	2017-03-31
+Wal-Mart Stores_WMT.csv	2001-05-08	2017-03-31
+Walgreens Boots Alliance_WBA.csv	2014-12-31	2017-03-31
+Waste Management Inc._WM.csv	2003-01-02	2017-03-31
+Waters Corporation_WAT.csv	2001-05-08	2017-03-31
+Wec Energy Group Inc_WEC.csv	2001-05-08	2017-03-31
+Wells Fargo_WFC.csv	2001-05-08	2017-03-31
+Welltower Inc._HCN.csv	2001-05-08	2017-03-31
+Western Digital_WDC.csv	2001-05-04	2017-03-31
+Western Union Co_WU.csv	2006-09-20	2017-03-31
+WestRock Company_WRK.csv	2015-06-24	2017-03-31
+Weyerhaeuser Corp._WY.csv	2001-05-08	2017-03-31
+Whirlpool Corp._WHR.csv	2001-05-08	2017-03-31
+Whole Foods Market_WFM.csv	2001-05-07	2017-03-31
+Williams Cos._WMB.csv	2001-05-08	2017-03-31
+Willis Towers Watson_WLTW.csv	2001-06-12	2017-03-31
+Wyndham Worldwide_WYN.csv	2006-07-19	2017-03-31
+Wynn Resorts Ltd_WYNN.csv	2002-10-25	2017-03-31
+Xcel Energy Inc_XEL.csv	2001-05-08	2017-03-31
+Xerox Corp._XRX.csv	2001-05-08	2017-03-31
+Xilinx Inc_XLNX.csv	2001-05-07	2017-03-31
+XL Capital_XL.csv	2016-07-25	2017-03-31
+Xylem Inc._XYL.csv	2011-10-13	2017-03-31
+Yahoo Inc._YHOO.csv	2001-05-07	2017-03-31
+Yum! Brands Inc_YUM.csv	2001-05-08	2017-03-31
+Zimmer Biomet Holdings_ZBH.csv	2001-07-25	2017-03-31
+Zions Bancorp_ZION.csv	2001-05-07	2017-03-31
+Zoetis_ZTS.csv	2013-02-01	2017-03-31
