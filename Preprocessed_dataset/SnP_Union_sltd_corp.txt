@@ -1,0 +1,274 @@
+Range Resources Corp._RRC
+Molson Coors Brewing Company_TAP
+Ecolab_Inc._ECL
+General Electric_GE
+Corning Inc._GLW
+Pinnacle West Capital_PNW
+Leucadia National Corp._LUK
+Pfizer Inc._PFE
+Northern Trust Corp._NTRS
+Honeywell Int'l Inc._HON
+Alliance Data Systems_ADS
+NRG Energy_NRG
+Thermo Fisher Scientific_TMO
+Bristol-Myers Squibb_BMY
+V.F. Corp._VFC
+PerkinElmer_PKI
+Paychex Inc._PAYX
+Aetna Inc_AET
+Torchmark Corp._TMK
+Danaher Corp._DHR
+CVS Health_CVS
+Dentsply Sirona_XRAY
+Affiliated Managers Group Inc_AMG
+Nvidia Corporation_NVDA
+Gartner Inc_IT
+General Growth Properties Inc._GGP
+Coca-Cola_Company_(The)_KO
+PPG Industries_PPG
+The Walt Disney Company_DIS
+Incyte_INCY
+Chubb Limited_CB
+Textron Inc._TXT
+Hartford Financial Svc.Gp._HIG
+Air Products & Chemicals Inc_APD
+Grainger (W.W.) Inc._GWW
+Costco Wholesale Corp._COST
+Jacobs Engineering Group_JEC
+Quanta Services Inc._PWR
+Eastman Chemical_EMN
+Baxter International Inc._BAX
+Alliant Energy Corp_LNT
+Du Pont (E.I.)_DD
+Yum! Brands Inc_YUM
+Public Serv. Enterprise Inc._PEG
+Home Depot_HD
+Alexion Pharmaceuticals_ALXN
+Vulcan Materials_VMC
+Autodesk Inc_ADSK
+JPMorgan Chase & Co._JPM
+Valero Energy_VLO
+Lincoln National_LNC
+Mettler Toledo_MTD
+Celgene Corp._CELG
+Parker-Hannifin_PH
+Union Pacific_UNP
+Unum Group_UNM
+Entergy Corp._ETR
+Cerner_CERN
+CenterPoint Energy_CNP
+Williams Cos._WMB
+DTE_Energy_Co._DTE
+Ventas Inc_VTR
+Monsanto Co._MON
+Biogen Inc._BIIB
+EOG Resources_EOG
+PepsiCo Inc._PEP
+American International Group, Inc._AIG
+Comcast Corp._CMCSA
+Exxon Mobil Corp._XOM
+Gilead Sciences_GILD
+Lockheed Martin Corp._LMT
+Kimberly-Clark_KMB
+Archer-Daniels-Midland Co_ADM
+Merck & Co._MRK
+Lilly (Eli) & Co._LLY
+Interpublic Group_IPG
+Flowserve Corporation_FLS
+Snap-On Inc._SNA
+Devon_Energy_Corp._DVN
+Stryker Corp._SYK
+Oracle Corp._ORCL
+Goodyear Tire & Rubber_GT
+Akamai Technologies Inc_AKAM
+Skyworks Solutions_SWKS
+Reynolds American Inc._RAI
+Amphenol Corp_APH
+International Paper_IP
+FMC Corporation_FMC
+Eversource Energy_ES
+Hormel Foods Corp._HRL
+Schlumberger Ltd._SLB
+Federal Realty Investment Trust_FRT
+Ingersoll-Rand PLC_IR
+Fiserv Inc_FISV
+Automatic Data Processing_ADP
+Assurant Inc_AIZ
+Verizon Communications_VZ
+The Bank of New York Mellon Corp._BK
+Dominion Resources_D
+Nasdaq, Inc._NDAQ
+McDonald's Corp._MCD
+Texas Instruments_TXN
+Activision Blizzard_ATVI
+Cisco Systems_CSCO
+IDEXX Laboratories_IDXX
+ONEOK_OKE
+Wec Energy Group Inc_WEC
+Apartment Investment & Management_AIV
+Intel Corp._INTC
+Nike_NKE
+Harris Corporation_HRS
+Raytheon Co._RTN
+Chevron Corp._CVX
+Simon Property Group Inc_SPG
+Apple Inc._AAPL
+Exelon Corp._EXC
+U.S. Bancorp_USB
+CF Industries Holdings Inc_CF
+Freeport-McMoRan Inc._FCX
+Rockwell Collins_COL
+Time Warner Inc._TWX
+CIGNA Corp._CI
+Applied Materials Inc_AMAT
+EQT Corporation_EQT
+Dish Network_DISH
+CenturyLink Inc_CTL
+Emerson Electric Company_EMR
+Praxair Inc._PX
+AT&T Inc_T
+Twenty-First Century Fox Class A_FOXA
+FirstEnergy Corp_FE
+Edison Int'l_EIX
+Microsoft Corp._MSFT
+Seagate Technology_STX
+Cincinnati Financial_CINF
+CME Group Inc._CME
+Stanley Black & Decker_SWK
+Stericycle Inc_SRCL
+The Travelers Companies Inc._TRV
+Tesoro Petroleum Co._TSO
+The Mosaic Company_MOS
+Noble Energy Inc_NBL
+Verisign Inc._VRSN
+Twenty-First Century Fox Class B_FOX
+TJX Companies Inc._TJX
+Prudential Financial_PRU
+Berkshire Hathaway_BRK.B
+Abbott Laboratories_ABT
+Intuitive Surgical Inc._ISRG
+Eaton Corporation_ETN
+American Electric Power_AEP
+SnP500
+NextEra Energy_NEE
+Genuine Parts_GPC
+AMETEK Inc_AME
+Newfield Exploration Co_NFX
+Intl Flavors & Fragrances_IFF
+AFLAC Inc_AFL
+Apache Corporation_APA
+PVH Corp._PVH
+Xcel Energy Inc_XEL
+Illinois Tool Works_ITW
+Invesco Ltd._IVZ
+Macerich_MAC
+Regeneron_REGN
+O'Reilly Automotive_ORLY
+Ameren Corp_AEE
+International Business Machines_IBM
+Fastenal Co_FAST
+Sempra Energy_SRE
+Transocean_RIG
+L-3 Communications Holdings_LLL
+Caterpillar Inc._CAT
+Cabot Oil & Gas_COG
+State Street Corp._STT
+AES Corp_AES
+Bed Bath & Beyond_BBBY
+Southern Co._SO
+Essex Property Trust, Inc._ESS
+CBRE Group_CBG
+Omnicom Group_OMC
+Northrop Grumman Corp._NOC
+Regency Centers Corporation_REG
+ConocoPhillips_COP
+Total System Services_TSS
+Host Hotels & Resorts_HST
+Helmerich & Payne_HP
+BorgWarner_BWA
+Henry Schein_HSIC
+Pulte Homes Inc._PHM
+Marathon Oil Corp._MRO
+Discovery Communications-A_DISCA
+Consolidated Edison_ED
+Laboratory Corp. of America Holding_LH
+SunTrust Banks_STI
+CMS Energy_CMS
+Chesapeake Energy_CHK
+Accenture plc_ACN
+Sherwin-Williams_SHW
+Boston Properties_BXP
+Arconic Inc_ARNC
+Dollar Tree_DLTR
+Kansas City Southern_KSU
+Hess Corporation_HES
+United Rentals, Inc._URI
+Boeing Company_BA
+PPL Corp._PPL
+T. Rowe Price Group_TROW
+Kroger Co._KR
+Prologis_PLD
+CA, Inc._CA
+Deere & Co._DE
+Martin Marietta Materials_MLM
+Agilent Technologies Inc_A
+Fidelity National Information Services_FIS
+General Dynamics_GD
+Franklin Resources_BEN
+J. B. Hunt Transport Services_JBHT
+McKesson Corp._MCK
+Kimco Realty_KIM
+Colgate-Palmolive_CL
+Hologic_HOLX
+Boston Scientific_BSX
+NiSource Inc._NI
+National Oilwell Varco Inc._NOV
+Equifax Inc._EFX
+S&P Global, Inc._SPGI
+Becton Dickinson_BDX
+Cardinal_Health_Inc_CAH
+PNC Financial Services_PNC
+Nucor Corp._NUE
+Wal-Mart Stores_WMT
+McCormick & Co._MKC
+Adobe Systems Inc_ADBE
+Roper Technologies_ROP
+Estee Lauder Cos._EL
+Church & Dwight_CHD
+Principal Financial Group_PFG
+Duke Energy_DUK
+Garmin Ltd._GRMN
+FLIR Systems_FLIR
+MetLife Inc._MET
+Cummins Inc._CMI
+Citigroup Inc._C
+Nordstrom_JWN
+Alexandria Real Estate Equities Inc_ARE
+HCP Inc._HCP
+Murphy Oil_MUR
+AvalonBay Communities, Inc._AVB
+Amazon.com Inc_AMZN
+United Technologies_UTX
+Wynn Resorts Ltd_WYNN
+Arthur J. Gallagher & Co._AJG
+Target Corp._TGT
+Xerox Corp._XRX
+Synopsys Inc._SNPS
+QUALCOMM Inc._QCOM
+Citrix Systems_CTXS
+Altria Group Inc_MO
+Raymond James Financial Inc._RJF
+Baker Hughes Inc_BHI
+Welltower Inc._HCN
+Fluor Corp._FLR
+Bard (C.R.) Inc._BCR
+Anadarko Petroleum Corp_APC
+Lam Research_LRCX
+Polo Ralph Lauren Corp._RL
+PACCAR Inc._PCAR
+Humana Inc._HUM
+SL Green Realty_SLG
+Dover Corp._DOV
+KLA-Tencor Corp._KLAC
+Occidental Petroleum_OXY
+Public Storage_PSA

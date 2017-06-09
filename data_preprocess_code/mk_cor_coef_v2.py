@@ -17,6 +17,17 @@ import numpy as np
 ###################################################################
 ####################    필요한 함수 정의 부분      #################
 ###################################################################
+
+import os
+import pandas as pd
+import numpy as np
+
+
+###################################################################
+####################    필요한 함수 정의 부분      #################
+###################################################################
+#RV coeff 분모 구하는 부분
+
 #RV coeff 분모 구하는 부분
 def cal_RVDenom(data, type_set="orig"):
     p = range(np.shape(data)[1])
@@ -29,6 +40,10 @@ def cal_RVDenom(data, type_set="orig"):
         mod_cal = [sum(np.square(data)[:,i] * np.square(data)[:,j] / np.square(n-1))  for i in p for j in p]  
         cov_sqr_m =[cov_sqr[i] - mod_cal[i]  for i in range(len(cov_sqr))]  
         r = sum(cov_sqr_m)
+    elif  type_set == 'adj':
+        cov_sqr_adj =[1-(n-1)/(n-2)*(1-cov_sqr[i])  for i in range(len(cov_sqr))]  
+        r = sum(cov_sqr_adj)
+        
     return r
 
 #RV coeff 구하는 부분
@@ -46,24 +61,31 @@ def RV(X, Y, type_set="orig"):
     p2 = range(np.shape(data2)[1])
   
     comb = [(i,j) for i in p1 for j in p2]
-    
+
     #calculate numerator    
     vecnum = []   
     for i in comb:   
          elemnum = np.square(np.cov(data1[:,i[0]], data2[:,i[1]])[0,1])
-         # for the modified
+         #for the modified
          if type_set=="mod":
              elemnum -=  sum((data1[:,i[0]] ** 2) * (data2[:,i[1]]) **2)/np.square(n-1)           
-         vecnum.append(elemnum)
+         
+         elif type_set == 'adj':
+             elemnum = 1- (n-1)/(n-2) * (1-elemnum)
+             
+         vecnum.append(elemnum)    
     num = sum(vecnum)
  
    #calculate denominator   
     denom1 = cal_RVDenom(data1, type_set)
     denom2 = cal_RVDenom(data2, type_set)
-
+    
     RV = num/np.sqrt(denom1*denom2)
- 
+    #print(RV, denom1, denom2)
     return RV
+
+
+
 
 
 #################################################################
