@@ -103,7 +103,7 @@ price = 'Close'
 
 #디렉토리 관련
 directory = r"C:\Users\User\Documents\bro_py" #default directory
-index_list = ['DAX30', 'kospi200_all', 'nikkei225', 'SSE50', 'SnP500']
+index_list = ['DAX30', 'KOSPI200', 'NIKKEI225', 'SSE50', 'SnP500']
 
 
 #################################################################

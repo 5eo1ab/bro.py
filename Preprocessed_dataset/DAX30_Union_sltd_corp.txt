@@ -1,0 +1,15 @@
+nan_HEN3
+nan_BAS
+nan_LHA
+nan_BMW
+nan_BEI
+nan_IFX
+nan_ALV
+nan_MRK
+nan_LIN
+nan_SAP
+nan_FRE
+nan_DAI
+nan_PSM
+nan_TKA
+nan_DB1
